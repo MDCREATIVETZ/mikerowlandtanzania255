@@ -232,7 +232,7 @@ button { font: inherit; }
     width: 30px;
     height: 30px;
   }
-}@keyframes whatsapp-pulse { 0% { opacity: .8; transform: scale(.82); } 75%,100% { opacity: 0; transform: scale(1.28); } }
+}
 
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: none; }
@@ -274,7 +274,7 @@ button { font: inherit; }
   .cta-card { flex-direction: column; align-items: flex-start; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; }
-  .whatsapp-float { right: 16px; bottom: 16px; width: 56px; height: 56px; }
+  .whatsapp { right: 16px; bottom: 16px; width: 56px; height: 56px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
